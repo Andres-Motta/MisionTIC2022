@@ -9,8 +9,6 @@ def compras_por_pais (pais):
   file.close()
   return compras
 
-print(compras_por_pais('United Kingdom'))
-
 def compras_por_medio (pais):
   """Funcion que permite conocer el numero de compras realizadas con un medio dado"""
   compras = 0
@@ -22,4 +20,7 @@ def compras_por_medio (pais):
   file.close()
   return compras
 
-print(compras_por_medio('Visa'))
+if __name__ == '__main__':
+  print(compras_por_pais('United Kingdom'))
+  print(compras_por_medio('Visa'))
+
