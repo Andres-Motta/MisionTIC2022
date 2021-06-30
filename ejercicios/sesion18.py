@@ -9,13 +9,13 @@ def compras_por_pais (pais):
   file.close()
   return compras
 
-def compras_por_medio (pais):
+def compras_por_medio (medio):
   """Funcion que permite conocer el numero de compras realizadas con un medio dado"""
   compras = 0
   with open('files/SalesJan2009.csv', 'r') as file:
     for line in file:
       line = line.split(',')
-      if pais == line[3]:
+      if medio == line[3]:
         compras += 1
   file.close()
   return compras
