@@ -12,7 +12,7 @@ Una familia colecciona las laminas de Panini de los mundiales, curiosamente del 
 
 # Solucion
 
-![LogicaR4](/img/LogicaR4.png)
+![LogicaR4](https://github.com/Juan-Motta/MisionTIC2022/blob/main/Retos/Reto4/img/LogicaR4.png)
 
 Dado que las dos entradas por consolas son strings, se debe convertir dichas entradas a un formato manipulable, en el caso del primer input a un diccionario y el segundo a una lista.
 
